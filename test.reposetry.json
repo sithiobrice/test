@@ -5,6 +5,13 @@
 
     },
     "Parameters": {
+        
+        "myec2": {
+            "Description": "-",
+            "Type": "[String|Number|CommaDelimitedList]",
+            "Default": "-"
+        }
+        
     
     },
     "Mappings": {
