@@ -1,0 +1,37 @@
+{
+"AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "",
+    "Metadata": {
+
+    },
+    "Parameters": {
+    "vpc": {
+        "Description": "-",
+        "Type": "[String|Number|CommaDelimitedList]",
+        "Default": "-"
+    }
+    
+    
+    },
+    "Mappings": {
+
+    },
+    "Conditions": {
+
+    },
+    "Resources": {
+        
+        "name": {
+          "Type": "AWS::EC2::VPC",
+          "Properties": {
+            "CidrBlock": "----/--",
+            "Tags": [-]
+          }
+        }
+        
+
+    },
+    "Outputs": {
+
+    }
+}
